@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenBase</title>
+  <link rel="stylesheet" href="gustar.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>OpenBase</h1>
+    </div>
+    <div class="menu-icon">
+      &#9776;
+    </div>
+  </header>
+  
+  <div class="main-content">
+    <section class="favorites">
+      <h2>Favoritos</h2>
+      <div class="favorite-card">
+        <span class="star selected" onclick="toggleStar(this)">&#9733;</span>
+        <div class="crypto-info">
+          <div class="box"><img src="imagenes/bitcoin.jpeg" width="60"></div>
+          <p>BitCoin</p>
+          <p>$67,220.61</p>
+        </div>
+      </div>
+
+      <div class="favorite-card">
+        <span class="star selected" onclick="toggleStar(this)">&#9733;</span>
+        <div class="crypto-info">
+          <div class="box"><img src="imagenes/eth.jpeg" width="60"></div>
+          <p>Etherum</p>
+          <p>$2,546.33</p>
+        </div>
+      </div>
+
+      <div class="favorite-card">
+        <span class="star selected" onclick="toggleStar(this)">&#9733;</span>
+        <div class="crypto-info">
+          <div class="box"><img src="imagenes/scroll.jpeg" width="60"></div>
+          <p>Scroll</p>
+          <p>$0.9993</p>
+        </div>
+        
+      </div>
+    </section>
+    <button class="back-button" onclick="location.href='dashboard2.html'">volver al incio</button>
+</body>
+</html>
